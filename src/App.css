@@ -107,3 +107,48 @@
   text-align: center;
   margin: .5em auto;
 }
+
+.img-doctor{
+  transform: rotate(-20deg);
+}
+
+.landing-lgr{
+  width: 370px;
+  margin-top: 1em;
+}
+
+img{
+  width: 370px;
+}
+
+.hero-text{
+  margin: 1em auto;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 4px 10px
+}
+
+#hero-btn{
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  margin: 1em auto;
+}
+
+@media only screen and (min-width: 450px) {
+  
+  .img{
+    width: 400px;
+  }
+
+  .landing-lgr{
+    width: 400px;
+  }
+}
